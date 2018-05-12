@@ -1,0 +1,159 @@
+
+/* Pattern styles */
+.left-half {
+  float: left;
+  width: 25%;
+}
+.right-half {
+  float: left;
+  width: 75%;
+}
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.tick text {
+    fill: black;
+    font-size: 11px;
+}
+
+.bar{
+    fill:orange;
+    stroke: white;
+}
+.bar1{
+	padding:20px;
+}
+.bar:hover{
+	fill : blue;
+}
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+polyline{
+    opacity: .3;
+    stroke: black;
+    stroke-width: 2px;
+    fill: none;
+}
+
+.labelValue
+{
+    font-size: 10px;
+    opacity: .5;
+    fill: #333;
+    color: #333;
+}
+
+.labelName
+{
+    font-size: 10px;
+    opacity: .5;
+    fill: #333;
+    color: #333;
+
+}
+path:hover {
+	fill-opacity: .7;
+}
+
+/* Style for Custom Tooltip */
+div.tooltip {
+	 	position: absolute;
+	 	left: 75px;
+	 	text-align: center;
+	 	height: 80px;
+	 	padding: 10px;
+	 	font-size: 14px;
+		font-style: oblique;
+		font-weight: bold;
+	 	background: #FFFFFF;
+	 	border: 1px solid #989898;
+ 		pointer-events: none;
+		white-space: pre;
+
+}
+
+
+.toolTip{
+	position: absolute;
+	display: none;
+	width: auto;
+	height:auto;
+
+	left: 75px;
+	text-align: center;
+
+	padding: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	background: none repeat scroll 0 0 white;
+	border: 0 none;
+	border-radius: 8px 8px 8px 8px;
+	box-shadow: 3px 3px 15px #888888;
+	color: black;
+	pointer-events: none;
+	white-space: pre;
+}
+
+county {
+	 	font: 14px sans-serif;
+	 	font-weight: bold;
+	}
+p {
+		font-family: 'Proxima Nova', sans-serif;
+		font-size:10px;
+		margin: 20px 0 0 10px;
+}
+	body {
+	 	font-family: 'Proxima Nova', sans-serif;
+	}
+/* Legend Font Style */
+body {
+	font: 11px sans-serif;
+}
+
+/* Legend Position Style */
+.legend {
+	position:absolute;
+	left:800px;
+	top:350px;
+}
+
+label{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+    display: block;
+}
+.form-control {font-size:12px;padding:6px 5px;}
+.choice{
+    font-size: 13px;
+    font-weight: normal;
+}
